@@ -1,0 +1,25 @@
+--- 
+search: false
+--- 
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Fonts
+body,
+.page__content,
+.entry {
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+code,
+pre {
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible Mono', monospace;
+    line-height: 1.5;
+}
