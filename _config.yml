@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mataiodoxion 2026
+baseurl: "/mataiodoxion_2026"
+repository: "mataiodoxion/mataiodoxion_2026"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for my blog page AP CSP 2025-2026.
