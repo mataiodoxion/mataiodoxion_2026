@@ -1,5 +1,5 @@
 # Configuration, override port with usage: make PORT=4610
-PORT ?= 4600
+PORT ?= 4700
 REPO_NAME ?= student
 LOG_FILE = /tmp/jekyll$(PORT).log
 
@@ -89,7 +89,7 @@ csp: cspserver
 # Start the local web server
 server: stop convert
 	@echo "Starting server incrementally..."
-	@@nohup bundle exec jekyll serve -H 127.0.0.1 -P $(PORT) --incremental > $(LOG_FILE) 2>&1 & \
+	@@nohup bundle exec jekyll serve -H 127.0.0.1 -P $(PORT) --livereload > $(LOG_FILE) 2>&1 & \
 		PID=$$!; \
 		echo "Server PID: $$PID"
 	@@until [ -f $(LOG_FILE) ]; do sleep 1; done
