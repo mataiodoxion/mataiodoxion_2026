@@ -172,6 +172,8 @@ const options = { method: "GET" };
 
 - The second `const options` is a JSON object with content defining a field `method:` with a string `"GET"`. We'll be using this later when sending our request.
 
+- The idea here is to fetch some the data API endpoint (which would be some cat image).
+
 Next, we construct our `response` variable:
 ```js
 let response = await fetch(url, options);
@@ -207,6 +209,27 @@ We first check if the `status` field of `response` is `200`.
 How does `response` even have that field though? The result of `fetch()` is a data structure called an `Object`. That `Object` will have specific data fields like `status`, which are filled in for us by `fetch()`.
 
 And why `200`? `200` is the standard response code that HTTP returns when something goes correctly. So, as you may have realized, we're really just checking `if` the response we got was successful, we'll go forward, `else`, we simply run `console.log("HTTP Error: " + response.status)` to log the error in the console.
+
+Let's take a look at the actual innards of this code now:
+
+```js
+    const imageBlob = await response.blob();
+    const imageObjectURL = URL.createObjectURL(imageBlob);
+
+    const image = document.createElement('img');
+    image.src = imageObjectURL;
+
+    const container = document.getElementById('container');
+    container.append(image);
+```
+
+First, we begin by retrieving the `blob` of the `response` (with an `await` again). A blob is a data structure which tells you the file type and contains its data; we then assign this data to the `const imageBlob`. We then use `URL.createObjectURL(imageBlob)` to create a string containing the `blob`.
+
+Next, we need to actually create an image using this data. To do this, we create an HTML `<img>` element and set its `src` to the blob URL string.
+
+The next part is a more Jupyter/Jekyll sort of thing. To actually display this on the page, we refer back to the `container` div we created earlier. We then append our image to that container so it actually displays on the page.
+
+Now let's try running it:
 
 <div id="container"></div>
 <button onclick="fetchCat()">Click Me!</button>
