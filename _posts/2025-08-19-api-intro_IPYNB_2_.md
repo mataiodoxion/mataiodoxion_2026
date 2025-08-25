@@ -71,7 +71,7 @@ fetch(ur)
 This code runs `fetch(url)` on some URL to fetch data. The `.then()` statements come from Functional Programming nomenclature (you should learn [Haskell](https://www.haskell.org/)!), basically meaning "after doing this, do this." 
 
 ```js
-    .then((response) => response.json())
+.then((response) => response.json())
 ```
 Basically, if our `fetch()` does return a valid response, we get the response's JSON structure, which will look something like this:
 ```json
@@ -96,7 +96,7 @@ Basically, if our `fetch()` does return a valid response, we get the response's 
 It may look a bit daunting, but the main idea is that it is a *data structure*, which, as the name suggests, is a structure that stores data.
 
 ```js
-    .then((json) => doSomething(json))
+.then((json) => doSomething(json))
 ```
 
 Now, if we successfully get the response's JSON, we *then* run function `doSomething()` that takes the `json` parameter. 
@@ -111,7 +111,7 @@ fetch(url) response -> response.json() -> doSomething()
 
 Finally, the last piece of code:
 ```js
-    .catch((error) => console.log("Error fetching data"));
+.catch((error) => console.log("Error fetching data"));
 ```
 The last piece of code basically says "if any of these fails, we `catch()` this error and return some error message." The reason we `catch()` the error is so that we containerize it. If we didn't catch the error, the variable `x` might just be an `Error` type, and so when we try to use that data under the assumption that it was correctly converted to JSON, we're just using the invalid `Error` data.
 
@@ -214,14 +214,14 @@ And why `200`? `200` is the standard response code that HTTP returns when someth
 Let's take a look at the actual innards of this code now:
 
 ```js
-    const imageBlob = await response.blob();
-    const imageObjectURL = URL.createObjectURL(imageBlob);
+const imageBlob = await response.blob();
+const imageObjectURL = URL.createObjectURL(imageBlob);
 
-    const image = document.createElement('img');
-    image.src = imageObjectURL;
+const image = document.createElement('img');
+image.src = imageObjectURL;
 
-    const container = document.getElementById('container');
-    container.append(image);
+const container = document.getElementById('container');
+container.append(image);
 ```
 
 First, we begin by retrieving the `blob` of the `response` (with an `await` again). A blob is a data structure which tells you the file type and contains its data; we then assign this data to the `const imageBlob`. We then use `URL.createObjectURL(imageBlob)` to create a string containing the `blob`.
