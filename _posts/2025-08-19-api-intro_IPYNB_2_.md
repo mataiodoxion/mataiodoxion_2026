@@ -1,5 +1,6 @@
 ---
 title: Intro to APIs
+description: A quick introduction to APIs and fetching cats.
 categories: ['APIs']
 ---
 
