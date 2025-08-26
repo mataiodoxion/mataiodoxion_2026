@@ -2,6 +2,7 @@
 title: Intro to APIs
 description: A quick introduction to APIs and fetching cats.
 categories: ['APIs']
+author_profile: False
 ---
 
 ## APIs? What are those?
@@ -105,7 +106,7 @@ You may be wondering: Wait! If we assigned the `response` variable to `response.
 
 Basically, we're running functions on the same piece of data to transform it. So, say our data is contained in some variable `x`, which is the result of `fetch(url)`. We then transform this data under an "alias" `response` to grab its JSON using `response.json()`. We have thus changed the data contained in `x`. Now, we run the next `.then()`, which, as we've seen, will return the the result from `doSomething()` and assign that returned data to that variable `x`. The data contained in `x` would look something like this:
 
-```console
+```js
 fetch(url) response -> response.json() -> doSomething()
 ```
 
