@@ -15,7 +15,7 @@ permalink: /game-background
     const ctx = canvas.getContext('2d');
     const backgroundImg = new Image();
     const spriteImg = new Image();
-    backgroundImg.src = '/mataiodoxion_2026/assets/images/alien_planet1.jpg';
+    backgroundImg.src = '/mataiodoxion_2026/assets/images/stars.jpg';
     spriteImg.src = '/mataiodoxion_2026/assets/images/mataiodoxia.png';
 
     // Load images
