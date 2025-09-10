@@ -16,7 +16,7 @@ permalink: /game-background
     const backgroundImg = new Image();
     const spriteImg = new Image();
     backgroundImg.src = '/mataiodoxion_2026/assets/images/alien_planet1.jpg';
-    spriteImg.src = '/mataiodoxion_2026/assets/images/flying-ufo.png';
+    spriteImg.src = '/mataiodoxion_2026/assets/images/mataiodoxia.png';
 
     // Load images
     let imagesLoaded = 0;
