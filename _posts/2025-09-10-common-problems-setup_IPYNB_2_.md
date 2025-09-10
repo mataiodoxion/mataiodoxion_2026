@@ -1,5 +1,5 @@
 ---
-title: A Brief Comment of LxD Init
+title: A Brief Comment on LxD Init
 description: A brief overview of certain
 author_profile: False
 ---
@@ -44,3 +44,7 @@ and upon running `bundle install` and `make`, everything should be resolved.
 
 ## Running Arch
 Surprisingly, there were very few problems I ran into while using Arch for AP CSP. There were a few problems with installing a Ruby toolchain, Bundler, and the like, but other than that, very few problems. The main point of speculation is how I'll run Ditto... 
+
+## Running a Custom Site
+
+I didn't want to use the given templates because they were really bloated and the load times were abysmal. I figured I could just build my own from a different Jekyll theme and only pull what I needed (which would require a bit tinkering because they aren't so compatible).
