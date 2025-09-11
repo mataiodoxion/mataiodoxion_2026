@@ -85,9 +85,15 @@ csp: cspserver
 	@# outputs startup log, removes last line ($$d) as ctl-c message is not applicable for background process
 	@sed '$$d' $(LOG_FILE)
 
+wasm:
+	@echo "Building WASM modules..."
+	@if [ -d "wasm-module" ]; then \
+		cd wasm-module && wasm-pack build --target web --out-dir ../assets/wasm; \
+	fi
+
 
 # Start the local web server
-server: stop convert
+server: stop convert wasm
 	@echo "Starting server incrementally..."
 	@@nohup bundle exec jekyll serve -H 127.0.0.1 -P $(PORT) --livereload > $(LOG_FILE) 2>&1 & \
 		PID=$$!; \

@@ -47,4 +47,6 @@ Surprisingly, there were very few problems I ran into while using Arch for AP CS
 
 ## Running a Custom Site
 
-I didn't want to use the given templates because they were really bloated and the load times were abysmal. I figured I could just build my own from a different Jekyll theme and only pull what I needed (which would require a bit tinkering because they aren't so compatible).
+I didn't want to use the given templates because they were really bloated and the load times were abysmal. I figured I could just build my own from a different Jekyll theme and only pull what I needed (which would require a bit tinkering because they aren't so compatible). I ended up using [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/) with a dark theme. The notebooks tended to be incompatible with their front matters, but I fixed those by removing a few fields. 
+
+Needless to say, I had to do a bunch of tinkering to get my site (mainly with having the blog pages display wider and without my author profile which was not necessary). But, everything's been working nicely and it's quite literally 3x as fast. I also implemented my own Makefile with a method to refresh notebooks which I made an issue on [here](https://github.com/mataiodoxion/lxd-apis/issues/2).

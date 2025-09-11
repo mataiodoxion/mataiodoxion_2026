@@ -40,6 +40,30 @@ jobs:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      
+      # Add Rust toolchain setup
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: wasm32-unknown-unknown
+          override: true
+      
+      # Install wasm-pack
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+      
+      # Build WASM module
+      - name: Build WASM module
+        run: |
+          if [ -d "wasm-module" ]; then
+            cd wasm-module
+            wasm-pack build --target web --out-dir ../assets/wasm
+            cd ..
+          else
+            echo "No wasm-module directory found, skipping WASM build"
+          fi
+
       - name: Install Python dependencies
         run: |
           python -m venv venv
