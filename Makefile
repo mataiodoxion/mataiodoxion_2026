@@ -89,6 +89,7 @@ wasm:
 	@echo "Building WASM modules..."
 	@if [ -d "wasm-module" ]; then \
 		cd wasm-module && wasm-pack build --target web --out-dir ../assets/wasm; \
+		cp ../assets/wasm/wasm_module.js ../assets/js/ || true; \
 	fi
 
 
