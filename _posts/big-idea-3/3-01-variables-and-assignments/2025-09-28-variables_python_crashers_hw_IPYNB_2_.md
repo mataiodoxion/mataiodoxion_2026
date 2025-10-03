@@ -3,6 +3,7 @@ title: 3.1 Variables & Assignments hacks - Python
 description: Apply your understanding of Variables & Assignments with these Python hacks
 permalink: /csp/big-idea-3/variables-and-assignments/p4/hacks-py
 author_profile: False
+published: False
 ---
 
 # 🐷 Peppa Maze Variables & Assignments Hacks (Python)

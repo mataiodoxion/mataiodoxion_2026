@@ -3,6 +3,7 @@ title: Mathematical Operations in Javascript and Python - Hacks
 description: Apply your skills of math, logic, and coding.
 permalink: /csp/big-idea-3/mathematical-expressions/p4/hacks-py
 author_profile: False
+published: False
 ---
 
 # Basic Algebraic Math hacks

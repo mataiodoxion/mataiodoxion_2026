@@ -3,6 +3,7 @@ title: 3.2 Data Abstractions JS Hack
 description: Hack(s) for intro to data abstractions in JS.
 permalink: /csp/big-idea-3/data-abstractions/p4/hacks-js
 author_profile: False
+published: False
 ---
 
 ## JS Lab: Library

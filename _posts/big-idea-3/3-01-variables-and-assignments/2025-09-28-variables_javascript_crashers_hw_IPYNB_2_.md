@@ -3,6 +3,7 @@ title: 3.1 Variables & Assignments hacks
 description: Apply your understanding of Variables & Assignments with these hacks
 permalink: /csp/big-idea-3/variables-and-assignments/p4/hacks-js
 author_profile: False
+published: False
 ---
 
 # 🐷 Peppa Maze Variables & Assignments Hacks

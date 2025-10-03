@@ -3,6 +3,7 @@ title: 3.2 Data Abstractions Python Hack
 description: Hack(s) for intro to data abstractions in Python.
 permalink: /csp/big-idea-3/data-abstractions/p4/hacks-py
 author_profile: False
+published: False
 ---
 
 ## Python Lab: Simple DBs
