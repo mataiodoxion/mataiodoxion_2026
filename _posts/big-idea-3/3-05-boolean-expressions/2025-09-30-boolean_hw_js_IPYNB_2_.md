@@ -1,9 +1,9 @@
 ---
-layout: opencs
 title: Boolean Logic in Programming
 description: Boolean Hacks For Students To Try In Java
-comments: True
-permalink: /csp/big-idea-3/boolean/p4/javahacks
+permalink: /csp/big-idea-3/boolean-expressions/p4/hw-js
+author_profile: False
+hidden: True
 ---
 
 # 🔑 Boolean Hacks in Java: Whack-A-Mole 
@@ -17,13 +17,13 @@ Set hit to true if the player hits the mole. Print "Hit!" if hit is true, otherw
 ```python
 %%js
 
-boolean hit = false; // Change to true if you hit the mole
+let hit = true; // Change to true if you hit the mole
 
 // TODO: check if hit is true
 if (hit) {
-    System.out.println("Hit!");
+    console.log("Hit!");
 } else {
-    System.out.println("Miss!");
+    console.log("Miss!");
 }
 ```
 
@@ -37,7 +37,7 @@ Each time the player misses a mole, they lose a life. If lives reach 0, print "G
 
 ```python
 %%js
-let lives = 3; // Decrease when a mole is missed
+let lives = 1; // Decrease when a mole is missed
 let missed = true; // Change to true if player misses a mole
 
 // TODO: decrease lives when a mole is missed
@@ -52,13 +52,17 @@ if (lives === 0) {
 }
 ```
 
+
+    <IPython.core.display.Javascript object>
+
+
 ## Challenge 3: High Score Boost
 If the player’s score reaches 10 or more, give them a bonus of +5 points.
 
 
 ```python
 %%js
-let score = 8; // Increase when a mole is hit
+let score = 11; // Increase when a mole is hit
 
 // TODO: add 5 bonus points when score is 10 or higher
 if (score >= 10) {
@@ -71,6 +75,10 @@ if (score >= 10) {
 console.log("Final score: " + score);
 ```
 
+
+    <IPython.core.display.Javascript object>
+
+
 ## Challenge 4: Bonus Mole Condition
 A golden mole should only give a bonus if both goldenMole and hit are true. Fix the condition.
 
@@ -81,9 +89,13 @@ let goldenMole = true;   // Special mole appears
 let hit = true;          // Change to true if the mole is hit
 
 // TODO: fix the condition so bonus only happens when BOTH are true
-if (goldenMole || hit) { // <-- wrong condition
+if (goldenMole && hit) { // <-- wrong condition
     console.log("Bonus!");
 } else {
     console.log("No bonus.");
 }
 ```
+
+
+    <IPython.core.display.Javascript object>
+

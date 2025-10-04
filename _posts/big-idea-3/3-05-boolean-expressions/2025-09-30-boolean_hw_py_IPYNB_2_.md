@@ -3,7 +3,7 @@ title: Boolean Logic in Programming
 description: Boolean Hacks For Students To Try In Python
 permalink: /csp/big-idea-3/boolean-expressions/p4/hw-py
 author_profile: False
-published: False
+hidden: True
 ---
 
 # 🔑 Boolean Hacks in Python: A Few New Codes!
