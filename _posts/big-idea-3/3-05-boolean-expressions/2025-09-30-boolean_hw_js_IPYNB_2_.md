@@ -3,7 +3,11 @@ title: Boolean Logic in Programming
 description: Boolean Hacks For Students To Try In Java
 permalink: /csp/big-idea-3/boolean-expressions/p4/hw-js
 author_profile: False
+<<<<<<< HEAD
 hidden: True
+=======
+published: False
+>>>>>>> 2b1cf4b (Add lesson files, fix archiving)
 ---
 
 # 🔑 Boolean Hacks in Java: Whack-A-Mole 
