@@ -3,7 +3,7 @@ title: Conditionals in Javascript and Python - Hacks
 description: Apply your skills to basic algorithmic design with conditionals.
 permalink: /csp/big-idea-3/conditionals/p4/hw-py
 author_profile: False
-published: False
+hidden: True
 ---
 
 # 🚀 CSP 3.6 Hacks — Conditionals 

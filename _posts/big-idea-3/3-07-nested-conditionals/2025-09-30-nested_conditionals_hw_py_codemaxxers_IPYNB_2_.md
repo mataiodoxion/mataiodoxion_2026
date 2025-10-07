@@ -1,10 +1,9 @@
 ---
 title: Nested Conditionals in Python - Homework
 description: Apply your skills of multilayered conditionals and combine all you've learned so far.
-layout: post
 permalink: /csp/big-idea-3/nested-conditionals/p4/hw-js
 author_profile: False
-published: False
+hidden: True
 ---
 
 # Nested Conditionals Homework: Python

@@ -3,7 +3,7 @@ title: Nested Conditionals in Javascript - Homework
 description: Apply your skills of multilayered conditionals and combine all you've learned so far.
 permalink: /csp/big-idea-3/nested-conditionals/p4/hw-js
 author_profile: False
-published: False
+hidden: True
 ---
 
 # Nested Conditionals Homework: Javascript

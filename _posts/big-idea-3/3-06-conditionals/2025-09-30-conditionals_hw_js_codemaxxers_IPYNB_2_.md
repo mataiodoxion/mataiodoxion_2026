@@ -1,10 +1,9 @@
 ---
 title: Conditionals in JavaScript - Hacks
 description: Three scaffolded hacks to practice selection (if, else if, else) in JavaScript. No nesting.
-layout: post
 permalink: /csp/big-idea-3/conditionals/p4/hw-js
 author_profile: False
-published: False
+hidden: True
 ---
 
 # 🌐 CSP 3.6 Hacks — Conditionals (JavaScript)

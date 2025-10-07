@@ -1,13 +1,9 @@
 ---
 title: Mathematical Operations in Javascript and Python - Hacks
 description: Apply your skills of math, logic, and coding.
-permalink: /csp/big-idea-3/mathematical-expressions/p4/hacks-js
+permalink: /csp/big-idea-3/mathematical-expressions/p4/hw-js
 author_profile: False
-<<<<<<< HEAD
 hidden: True
-=======
-published: False
->>>>>>> 2b1cf4b (Add lesson files, fix archiving)
 ---
 
 # Basic Algebraic Math hacks
