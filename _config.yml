@@ -20,7 +20,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for my blog page AP CSP 2025-2026.
 github_username: mataiodoxion
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
