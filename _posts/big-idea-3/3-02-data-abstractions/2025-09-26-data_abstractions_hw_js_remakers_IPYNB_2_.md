@@ -13,8 +13,7 @@ In this lab, similarly to the Python lab, you'll be working on a simple "databas
 For JavaScript, you'll have to open the web console from Developer Tools (`ctrl + shift + p` -> `Developer: Toggle developer tools`).
 
 
-```python
-%%js
+```javascript
 
 let library = [
     { title: "1984", author: "George Orwell", checkedOut: false },

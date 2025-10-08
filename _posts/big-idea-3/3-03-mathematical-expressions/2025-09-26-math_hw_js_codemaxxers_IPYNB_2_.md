@@ -12,8 +12,7 @@ hidden: True
 ### A cube has a side length of 6 units. What is its volume?
 
 
-```python
-%%js
+```javascript
 
 let side_len = 6;
 let volume = side_len ** 3;
@@ -31,8 +30,7 @@ console.log(volume);
 (7+14)*5/12 + 2
 
 
-```python
-%%js
+```javascript
 
 let expr = (7 + 14) * 5/12 + 2;
 console.log(expr);
@@ -47,8 +45,7 @@ console.log(expr);
 Write JavaScript  code where you define variables and run commands that find the values of operations you apply onto them
 
 
-```python
-%%js
+```javascript
 
 // Quick Fn for Euler's Totient (phi)
 function phi(n) {

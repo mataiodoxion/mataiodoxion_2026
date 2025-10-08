@@ -25,8 +25,7 @@ An online store calculates shipping costs based on the order total and membershi
 **Your task:** Complete the nested conditional so that when you run the code with the given initial values (`orderTotal = 45` and `isMember = true`), the output shows a shipping cost of **$3**.
 
 
-```python
-%%js
+```javascript
 // Initial conditions - DO NOT CHANGE THESE
 let orderTotal = 45;
 let isMember = true;
@@ -74,8 +73,7 @@ Create a system that recommends a restaurant based on the user's budget and cuis
 **Your task:** Write the complete nested conditional structure. Store the recommendation in the `recommendation` variable.
 
 
-```python
-%%js
+```javascript
 // Test variables
 let budgetPerPerson = 25;
 let cuisine = "japanese";
@@ -149,8 +147,7 @@ The thermostat needs to decide what action to take based on:
 **Your task:** Design the complete nested conditional algorithm from scratch. You're given the framework below with initial values, but NO code. Write the entire logic yourself.
 
 
-```python
-%%js
+```javascript
 // Test variables
 let currentTemp = 78;
 let isHomeOccupied = true;

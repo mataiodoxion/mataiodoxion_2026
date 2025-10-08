@@ -14,8 +14,7 @@ This notebook has short Boolean challenges. Edit the code where it says `TODO` t
 Set hit to true if the player hits the mole. Print "Hit!" if hit is true, otherwise print "Miss!".
 
 
-```python
-%%js
+```javascript
 
 let hit = true; // Change to true if you hit the mole
 
@@ -35,8 +34,7 @@ if (hit) {
 Each time the player misses a mole, they lose a life. If lives reach 0, print "Game Over!".
 
 
-```python
-%%js
+```javascript
 let lives = 1; // Decrease when a mole is missed
 let missed = true; // Change to true if player misses a mole
 
@@ -60,8 +58,7 @@ if (lives === 0) {
 If the player’s score reaches 10 or more, give them a bonus of +5 points.
 
 
-```python
-%%js
+```javascript
 let score = 11; // Increase when a mole is hit
 
 // TODO: add 5 bonus points when score is 10 or higher
@@ -83,8 +80,7 @@ console.log("Final score: " + score);
 A golden mole should only give a bonus if both goldenMole and hit are true. Fix the condition.
 
 
-```python
-%%js
+```javascript
 let goldenMole = true;   // Special mole appears
 let hit = true;          // Change to true if the mole is hit
 

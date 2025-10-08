@@ -29,8 +29,7 @@ Answers to common errors:
 
 
 
-```python
-%%js
+```javascript
 // Starter code 
 var num = 11;  //  Change this number to test different inputs
 
@@ -56,8 +55,7 @@ var num = 11;  //  Change this number to test different inputs
 
 
 
-```python
-%%js
+```javascript
 
 // Starter code 
 let grade = 76;  // Change this grade to test different cases
@@ -96,8 +94,7 @@ let grade = 76;  // Change this grade to test different cases
 
 
 
-```python
-%%js
+```javascript
 // Starter code (student edits this cell)
 let age = 16;           //  Change the age
 let has_ticket = "yes"; //  Change to "yes" or "no"
