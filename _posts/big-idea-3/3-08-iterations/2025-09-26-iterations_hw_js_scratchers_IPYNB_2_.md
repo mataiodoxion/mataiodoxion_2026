@@ -1,9 +1,9 @@
 ---
 title: JavaScript Homework Iterations
 description: Homework for Iterations lesson in Python
-toc: False
-comments: True
-permalink: /csp/big-idea-3/scratchers/iterations/js_hw
+permalink: /csp/big-idea-3/scratchers/iterations/hw-js
+author_profile: False
+hidden: True
 ---
 
 # 3.8 Iterations Homework in JavaScript

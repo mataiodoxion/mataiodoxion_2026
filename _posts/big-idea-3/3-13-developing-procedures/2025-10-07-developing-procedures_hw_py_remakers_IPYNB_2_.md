@@ -2,6 +2,7 @@
 title: Remakers - 3.13 Developing Procedures Python Hacks
 description: Apply your skills to basic procedure development in Python.
 permalink: /csp/big-idea-3/developing-procedures/p4/hw-py
+author_profile: False
 hidden: True
 ---
 

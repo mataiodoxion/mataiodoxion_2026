@@ -3,6 +3,7 @@ title: Remakers - 3.13 Developing Procedures JS Hacks
 author: Krishna Visvanath, Sloane Sommers
 description: Apply your skills to basic procedure development in Javascript.
 permalink: /csp/big-idea-3/developing-procedures/p4/hw-js
+author_profile: False
 hidden: True
 ---
 
