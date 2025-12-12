@@ -1,5 +1,5 @@
 ---
-title: Cracking Mr. Mort's Flask Server
+title: Cracking Mr. Mort's Flask Server For Fun and No Profit
 author_profile: false
 ---
 
